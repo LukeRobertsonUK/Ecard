@@ -1,0 +1,112 @@
+/*
+Project Name: Ecard.ly
+Client: General Assembly
+Author: Christopher Castig | @castig
+Developer @GA in NYC
+*/
+
+body {
+  background: #d6d6d6;
+  font-color: #000000;
+}
+
+/*************************
+TOP LOGO
+**************************/
+
+#banner {
+  text-align: center;
+  background: url("../images/background.jpg") ;
+  background-repeat: repeat-x;
+}
+
+/*************************
+LEFT CONTENT PANEL
+**************************/
+
+#container {
+  width: 940px;
+  margin: auto;
+}
+
+.page {
+  background: #FFFFFF;
+  width: 600px;
+  float: left;
+  padding: 20px;
+}
+
+.entry {
+  padding-bottom: 50px;
+}
+
+.author {
+  border-top: 1px dotted black;
+  border-bottom: 1px solid black;
+}
+
+h1 {
+  padding-left: 10000000px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 12px;
+}
+
+.page a {
+  color: #cc6633;
+  font-weight:  bold;
+  text-decoration: none;
+}
+
+/*************************
+SIDEBAR
+**************************/
+
+.sidebar {
+  background: #FFFFFF;
+  width: 220px;
+  padding: 30px;
+  float: right;
+  text-align: center;
+}
+
+.sidebar ul {
+  padding-left: 0;
+  font-size: 12px;
+  text-align: left;
+  font-weight: bold;
+   list-style: none;
+}
+
+.sidebar img {
+  padding-top: 20px;
+}
+
+
+/*************
+* FOOTER  *
+*************/
+
+.social {
+  text-align: center;
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+
+/*************
+* CLEARFIX   *
+*************/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
