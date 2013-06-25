@@ -20,6 +20,10 @@ TOP LOGO
   background-repeat: repeat-x;
 }
 
+#banner img {
+  margin-top: 10px;
+}
+
 /*************************
 LEFT CONTENT PANEL
 **************************/
@@ -47,6 +51,8 @@ LEFT CONTENT PANEL
 
 h1 {
   margin-left: -999999px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 h2 {
