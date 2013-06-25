@@ -46,7 +46,7 @@ LEFT CONTENT PANEL
 }
 
 h1 {
-  padding-left: 10000000px;
+  margin-left: -999999px;
 }
 
 h2 {
