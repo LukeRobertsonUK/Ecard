@@ -6,9 +6,12 @@ Developer @GA in NYC
 */
 
 body {
-  background: #d6d6d6;
   font-color: #000000;
+  background: url("../images/background.jpg") #d6d6d6 ;
+  background-repeat: repeat-x;
+  padding-top: 10px;
 }
+
 
 /*************************
 TOP LOGO
@@ -16,12 +19,11 @@ TOP LOGO
 
 #banner {
   text-align: center;
-  background: url("../images/background.jpg") ;
-  background-repeat: repeat-x;
 }
 
-#banner img {
-  margin-top: 10px;
+.logo {
+  margin: auto;
+  display: block;
 }
 
 /*************************
@@ -47,6 +49,7 @@ LEFT CONTENT PANEL
 .author {
   border-top: 1px dotted black;
   border-bottom: 1px solid black;
+  padding: 10px 0 10px 0;
 }
 
 h1 {
@@ -91,13 +94,24 @@ SIDEBAR
   line-height: 150%;
   text-align: left;
   font-weight: bold;
-   list-style: none;
-   margin-top: 0;
-   margin-bottom: 30px;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .sidebar img {
   margin-bottom: 20px;
+}
+
+.sidebar li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.sidebar li a: hover,
+.sidebar li a: focus {
+  color: #999;
+  outline: none;
 }
 
 /*************
@@ -108,6 +122,11 @@ SIDEBAR
   text-align: center;
   padding-top: 42px;
   padding-bottom: 42px;
+}
+
+.social img {
+  display: inline-block;
+  margin: 0 5px 0 5px;
 }
 
 /*************
